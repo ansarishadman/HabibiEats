@@ -958,7 +958,7 @@ module.exports = {
                                 {
                                     "info": {
                                         "id": "97199",
-                                        "name": "Phoenix Pizza",
+                                        "name": "Domino's Pizza",
                                         "cloudinaryImageId": "uzdh5oslkxopth57wlst",
                                         "locality": "South Park",
                                         "areaName": "Bistupur",
@@ -2076,7 +2076,7 @@ module.exports = {
                                 {
                                     "info": {
                                         "id": "97199",
-                                        "name": "Phoenix Pizza",
+                                        "name": "Dominos Pizza",
                                         "cloudinaryImageId": "uzdh5oslkxopth57wlst",
                                         "locality": "South Park",
                                         "areaName": "Bistupur",

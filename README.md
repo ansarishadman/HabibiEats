@@ -1,2 +1,2 @@
-# HabibiEats
-A food ordering application!
+# Habibi Eats
+A food ordering application

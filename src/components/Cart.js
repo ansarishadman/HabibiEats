@@ -43,7 +43,7 @@ const Cart = () => {
     }
 
     return (
-        <div className='flex flex-col justify-center bg-pink-400'>
+        <div className='flex flex-col justify-center bg-yellow-100'>
             <div className='flex justify-center text-3xl mt-2 font-bold text-red-700'>
                 Cart
             </div>
@@ -62,8 +62,8 @@ const Cart = () => {
                 <div className='my-6 text-blue-800 font-bold'>
                     Total Price - { _calculateTotalPrice(cartItemsValue) }
                 </div>
-                <div className='my-6 text-lg font-bold text-orange-800'>
-                    <button onClick={() => clearCart()} className='bg-green-400 p-2'>Clear Cart</button>
+                <div className='my-6 text-lg font-bold text-white'>
+                    <button onClick={() => clearCart()} className='bg-green-800 p-2'>Clear Cart</button>
                     <button onClick={() => window.alert('Kindly do not proceed to pay! :)')} className='bg-gray-400 p-2 ml-4'>Proceed to pay!</button>
                 </div>
             </div>

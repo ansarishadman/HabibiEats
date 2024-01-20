@@ -16,7 +16,7 @@ const Body = () => {
     }, [])
 
     async function getRestaurants() {
-        const data = await fetch("https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.80605343524565&lng=86.17528159171343&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+        const data = await fetch("https://foodfire.onrender.com/api/restaurants?lat=22.80605343524565&lng=86.17528159171343&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
         const json = await data.json();
         const restaurantList = collectAllRestaurantList(json?.data?.cards);
 
